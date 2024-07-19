@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>디데이계산기</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>디데이 계산기</h1>
+      <p id="curDate"></p>
+      <input type="date" name="" id="dDate" /><br />
+      <button id="btnCount">D-Day 계산하기</button>
+      <!-- 디데이 계산 결과출력 -->
+      <div class="result-container">
+        <p id="dDay"></p>
+      </div>
+      <!-- 주제 추가 -->
+      <p id="topic">일정</p>
+      <input type="text" id="inputTopic" placeholder="일정 입력" /><br />
+      <button id="btnTopic">추가하기</button>
+      <!-- 주제 추가 결과출력 -->
+      <ul id="ddayList"></ul>
+    </div>
+    <script src="d_script.js"></script>
+  </body>
+</html>
